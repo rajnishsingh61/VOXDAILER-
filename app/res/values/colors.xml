@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#F0F0F0</color>
+    <color name="colorAccent">#007AFF</color>
+    
+    <!-- White Palette -->
+    <color name="neon_blue">#007AFF</color>
+    <color name="neon_purple">#5856D6</color>
+    <color name="light_bg">#F8F9FA</color>
+    <color name="glass_white">#F0FFFFFF</color>
+    <color name="glass_white_border">#E0E0E0</color>
+    <color name="text_primary">#1C1C1E</color>
+    <color name="text_secondary">#8E8E93</color>
+    <color name="call_green">#34C759</color>
+    <color name="call_red">#FF3B30</color>
+    
+    <!-- Skeleton Colors -->
+    <color name="skeleton_base">#E1E1E1</color>
+    <color name="skeleton_highlight">#F5F5F5</color>
+</resources>

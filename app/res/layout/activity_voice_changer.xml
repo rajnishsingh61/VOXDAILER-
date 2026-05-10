@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_bg"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/GlassCard"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:layout_width="86dp"
+                android:layout_height="86dp"
+                android:src="@android:drawable/ic_btn_speak_now"
+                android:tint="@color/neon_blue"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modulation Interface"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium" />
+
+            <Button
+                android:id="@+id/btn_live_preview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Start Live Monitor"
+                android:backgroundTint="@color/neon_blue"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false">
+
+            <!-- Effects will be added programmatically or more Buttons here -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="100dp"
+                android:text="@string/effect_robot"
+                android:background="@drawable/glass_card_bg"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="100dp"
+                android:text="@string/effect_deep"
+                android:background="@drawable/glass_card_bg"
+                android:layout_margin="8dp" />
+                
+            <!-- Repeat for other effects -->
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

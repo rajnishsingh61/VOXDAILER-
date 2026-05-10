@@ -1,0 +1,6 @@
+{
+  "name": "VoxDialer",
+  "description": "Futuristic custom dialer with voice changer effects and modern UI.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": []
+}
